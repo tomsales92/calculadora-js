@@ -10,7 +10,7 @@ function definirOperacao(valor) {
     operacao = valor;
 }
 
-function adicionarNumero(numero) {        
+function adicionarNumero(numero) {  
     if (operacao === '') {
         num1 = obterNumero(numero, num1);
     } else {
